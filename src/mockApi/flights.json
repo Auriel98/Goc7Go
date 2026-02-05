@@ -1,0 +1,243 @@
+[
+  {
+    "id": "FL-001",
+    "tripType": "round-trip",
+    "currency": "EUR",
+
+    "price": {
+      "total": 495,
+      "baseFare": 430,
+      "taxes": 65,
+      "perAdult": 495
+    },
+
+    "airline": {
+      "code": "AT",
+      "name": "Royal Air Maroc",
+      "logo": "/images/airlines/ram.png"
+    },
+
+    "cabinClass": "Economy",
+    "refundable": false,
+    "changeable": true,
+
+    "baggage": {
+      "cabin": "10kg",
+      "checked": "23kg",
+      "extraFee": false
+    },
+
+    "outbound": {
+      "from": {
+        "city": "Libreville",
+        "airport": "Libreville Léon-Mba",
+        "code": "LBV"
+      },
+      "to": {
+        "city": "Paris",
+        "airport": "Charles de Gaulle",
+        "code": "CDG"
+      },
+      "date": "2026-03-12",
+      "departureTime": "22:30",
+      "arrivalTime": "07:10+1",
+      "duration": "9h40",
+      "stops": 1,
+
+      "segments": [
+        {
+          "from": "LBV",
+          "to": "CMN",
+          "departure": "22:30",
+          "arrival": "04:50+1",
+          "flightNumber": "AT-555",
+          "aircraft": "Boeing 737",
+          "duration": "6h20"
+        },
+        {
+          "from": "CMN",
+          "to": "CDG",
+          "departure": "06:10",
+          "arrival": "07:10",
+          "flightNumber": "AT-760",
+          "aircraft": "Airbus A320",
+          "duration": "2h00"
+        }
+      ]
+    },
+
+    "return": {
+      "from": {
+        "city": "Paris",
+        "airport": "Charles de Gaulle",
+        "code": "CDG"
+      },
+      "to": {
+        "city": "Libreville",
+        "airport": "Libreville Léon-Mba",
+        "code": "LBV"
+      },
+      "date": "2026-03-28",
+      "departureTime": "10:40",
+      "arrivalTime": "19:20",
+      "duration": "8h40",
+      "stops": 1,
+
+      "segments": [
+        {
+          "from": "CDG",
+          "to": "CMN",
+          "departure": "10:40",
+          "arrival": "13:20",
+          "flightNumber": "AT-761",
+          "aircraft": "Airbus A320",
+          "duration": "2h40"
+        },
+        {
+          "from": "CMN",
+          "to": "LBV",
+          "departure": "15:00",
+          "arrival": "19:20",
+          "flightNumber": "AT-556",
+          "aircraft": "Boeing 737",
+          "duration": "6h20"
+        }
+      ]
+    },
+
+    "provider": {
+      "name": "TravelCompare",
+      "bookingUrl": "https://travelcompare.com/book/FL-001"
+    },
+
+    "rating": {
+      "score": 4.3,
+      "reviews": 1284
+    },
+
+    "emissions": {
+      "co2": "620kg",
+      "ecoRating": "C"
+    }
+  },
+
+  {
+    "id": "FL-002",
+    "tripType": "round-trip",
+    "currency": "EUR",
+
+    "price": {
+      "total": 510,
+      "baseFare": 450,
+      "taxes": 60,
+      "perAdult": 510
+    },
+
+    "airline": {
+      "code": "TK",
+      "name": "Turkish Airlines",
+      "logo": "/images/airlines/turkish.png"
+    },
+
+    "cabinClass": "Economy",
+    "refundable": true,
+    "changeable": true,
+
+    "baggage": {
+      "cabin": "8kg",
+      "checked": "30kg",
+      "extraFee": false
+    },
+
+    "outbound": {
+      "from": {
+        "city": "Libreville",
+        "airport": "LBV",
+        "code": "LBV"
+      },
+      "to": {
+        "city": "Paris",
+        "airport": "CDG",
+        "code": "CDG"
+      },
+      "date": "2026-03-12",
+      "departureTime": "19:15",
+      "arrivalTime": "07:30+1",
+      "duration": "10h15",
+      "stops": 1,
+      "segments": [
+        {
+          "from": "LBV",
+          "to": "IST",
+          "departure": "19:15",
+          "arrival": "05:30+1",
+          "flightNumber": "TK-622",
+          "aircraft": "Airbus A330",
+          "duration": "8h15"
+        },
+        {
+          "from": "IST",
+          "to": "CDG",
+          "departure": "06:30",
+          "arrival": "07:30",
+          "flightNumber": "TK-1821",
+          "aircraft": "Airbus A321",
+          "duration": "3h00"
+        }
+      ]
+    },
+
+    "return": {
+      "from": {
+        "city": "Paris",
+        "airport": "CDG",
+        "code": "CDG"
+      },
+      "to": {
+        "city": "Libreville",
+        "airport": "LBV",
+        "code": "LBV"
+      },
+      "date": "2026-03-30",
+      "departureTime": "11:50",
+      "arrivalTime": "21:10",
+      "duration": "9h20",
+      "stops": 1,
+      "segments": [
+        {
+          "from": "CDG",
+          "to": "IST",
+          "departure": "11:50",
+          "arrival": "16:40",
+          "flightNumber": "TK-1822",
+          "aircraft": "Airbus A321",
+          "duration": "3h50"
+        },
+        {
+          "from": "IST",
+          "to": "LBV",
+          "departure": "18:30",
+          "arrival": "21:10",
+          "flightNumber": "TK-623",
+          "aircraft": "Airbus A330",
+          "duration": "7h40"
+        }
+      ]
+    },
+
+    "provider": {
+      "name": "Skyscanner",
+      "bookingUrl": "https://skyscanner.com/book/FL-002"
+    },
+
+    "rating": {
+      "score": 4.6,
+      "reviews": 2140
+    },
+
+    "emissions": {
+      "co2": "680kg",
+      "ecoRating": "B"
+    }
+  }
+]
