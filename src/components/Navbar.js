@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 export default function Navbar() {
   useEffect(() => {
     // Effet au scroll pour réduire la navbar
-    let lastScroll = 0;
     const handleScroll = () => {
       const nav = document.querySelector('.nav');
       const currentScroll = window.pageYOffset;
@@ -15,8 +14,6 @@ export default function Navbar() {
       } else {
         nav?.classList.remove('scrolled');
       }
-      
-      lastScroll = currentScroll;
     };
 
     // Active state sur les liens
@@ -287,7 +284,7 @@ export default function Navbar() {
         }
 
         .logo-image {
-          height: 150px;
+          height: 140px;
           width: auto;
           transition: all 0.3s ease;
           position: relative;
