@@ -13,10 +13,10 @@ export default function Footer() {
               Votre comparateur de vols intelligent pour voyager au meilleur prix.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-link" aria-label="Twitter">🐦</a>
-              <a href="#" className="social-link" aria-label="Facebook">📘</a>
-              <a href="#" className="social-link" aria-label="Instagram">📷</a>
-              <a href="#" className="social-link" aria-label="LinkedIn">💼</a>
+              <a href="/" className="social-link" aria-label="Twitter">🐦</a>
+              <a href="/" className="social-link" aria-label="Facebook">📘</a>
+              <a href="/" className="social-link" aria-label="Instagram">📷</a>
+              <a href="/" className="social-link" aria-label="LinkedIn">💼</a>
             </div>
           </div>
 
@@ -24,30 +24,30 @@ export default function Footer() {
             <div className="footer-column">
               <h4>Navigation</h4>
               <ul>
-                <li><a href="#search">Rechercher un vol</a></li>
-                <li><a href="#how">Comment ça marche</a></li>
-                <li><a href="#why">Pourquoi nous choisir</a></li>
-                <li><a href="#contact">Nous contacter</a></li>
+                <li><a href="/search">Rechercher un vol</a></li>
+                <li><a href="/how">Comment ça marche</a></li>
+                <li><a href="/why">Pourquoi nous choisir</a></li>
+                <li><a href="/contact">Nous contacter</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
               <h4>Informations</h4>
               <ul>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Nos partenaires</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Carrières</a></li>
+                <li><a href="/">À propos</a></li>
+                <li><a href="/">Nos partenaires</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Carrières</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
               <h4>Légal</h4>
               <ul>
-                <li><a href="#">Mentions légales</a></li>
-                <li><a href="#">Politique de confidentialité</a></li>
-                <li><a href="#">CGU</a></li>
-                <li><a href="#">Cookies</a></li>
+                <li><a href="/">Mentions légales</a></li>
+                <li><a href="/">Politique de confidentialité</a></li>
+                <li><a href="/">CGU</a></li>
+                <li><a href="/">Cookies</a></li>
               </ul>
             </div>
 
